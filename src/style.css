@@ -64,23 +64,37 @@ body {
     padding: 0%;
     width: 1440px;
     height: 1034px;
-    background-image: url(assets/shutterstock_1954078291-scaled-2.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image: url(assets/banner\ \(1\).png);
+    background-size: contain;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+nav {
+  width: 1440px;
+  height: 138px;
+  padding: 16px;
+  margin-left: 81px;
+  margin-right: 144px;
+  display: flex;
+}
+.navbar {
+  width: 1440px;
+  height: 138px;
+  display: flex;
+  align-items: space-between;
 }
 
-.navbar {
-    width: 1422px;
-    height: 138px;
-    display: flex;
-    justify-content:space-around;
+.logo {
+  height: 92px;
+  width: 94px;
 }
 
 .menu {
-    width: 837px;
-    height: 49.5px;
+    position: 837, 49.5;
     display: flex;
     justify-content:space-around;
+    width: 441px;
+    height: 23px;
 }
 
 .banner {
@@ -97,10 +111,16 @@ h1 {
     font-size: 128px;
     color: #ffff;
     justify-items: center;
+    font-family: "Kulim Park", sans-serif;
 }
 p {
-    font-family: "Kulim Park";
+    font-family: "Kulim Park", sans-serif;
     color: #DF994E;
     font-weight: bold;
     size: 32px;
+}
+
+a {
+ color: white;
+
 }
