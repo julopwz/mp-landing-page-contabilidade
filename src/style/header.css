@@ -1,0 +1,53 @@
+
+nav {
+    width: 1440px;
+    height: 138px;
+    padding: 16px;
+    margin-left: 81px;
+    margin-right: 144px;
+    display: flex;
+  }
+  .navbar {
+    width: 1440px;
+    height: 138px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 92px;
+    width: 94px;
+  }
+  
+  .menu {
+      position: 837, 49.5;
+      display: flex;
+      justify-content:space-around;
+      width: 441px;
+      height: 23px;
+      margin-left: 400px;
+      margin-right: 0;
+  }
+  
+  .banner {
+      width: 1440px;
+      height: 1034px;
+      background-image: url(./assets/banner\ \(1\).png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+  }
+  
+  .bannercentro {
+      width: 1000px;
+      height: 350px;
+      margin: 127px;
+  
+  }
+  
+  .container2 {
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  
+  

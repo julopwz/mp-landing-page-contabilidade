@@ -1,0 +1,46 @@
+
+/* Seções anteriores mantidas */
+
+.clients-section {
+    margin: 50px;
+  }
+  
+  .clients-section h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .clients-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .client-card {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .client-card img {
+    width: 300px;
+    height: 200px;
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .client-card p {
+    font-size: 18px;
+    color: #2c3e50;
+    font-weight: bold;
+  }
+  
+  
