@@ -7,79 +7,124 @@
     <title>contabilidade</title>
 </head>
 <body>
-    <div class="banner">
+    
+    <!-- abertura do site -->
+    <header class="banner">
         <nav class="navbar">
-            <img class="logo"  src="assets/logo-salles 1.png" alt="">
-            <div class="menu">
-                <a href="#banner">Início</a>
-                <a href="#bannercentro">Perfil</a>
-                <a href="#container">Serviços</a>
-                <a href="#clients">Clientes</a>
-                <a href="#contato">Contato</a>
+
+            <!-- logo -->
+            <div  class="logo">
+                <img src="assets/logo-salles 1.png" alt="">
             </div>
+            
+            <!-- menu -->
+            <ul class="menu">
+               <li><a href="#banner">Início</a></li>
+               <li><a href="#perfil">Perfil</a></li>
+               <li><a href="#servico">Serviços</a></li>
+               <li><a href="#clientes">Clientes</a></li> 
+               <li><a href="#contato">Contato</a></li>
+            </ul> 
+            
         </nav>
         <div class="bannercentro">
-            <h1>Salles <br>
-                Contabilidade</h1>
+            <h1>Salles <br /> Contabilidade</h1>
             <p>Experiência. Compromisso. Valor.</p>
         </div>
-    </div>
-        <!-- Texto da fundação e serviços -->
+    </header>
+  
+    <!-- Texto da fundação -->
+    <section class="fundacao-section" id="perfil">
         <div class="container">
+            <div class="image-section">
+                <img src="./assets/cliente (1).jpg" alt="">
+            </div>
+    
             <div class="text-section">
                 <h2>Fundação da Empresa</h2>
-                <p>Fundada em [ano], a [Nome da Empresa] nasceu com a missão de [missão da empresa]. Desde o início, focamos em oferecer soluções inovadoras e personalizadas no campo de [setor da empresa].</p>
-                <h2>Serviços da Empresa</h2>
+                <p>Fundada em [ano], a [Nome da Empresa] nasceu com a missão de [missão da empresa]. Desde o início, focamos em oferecer soluções inovadoras e personalizadas no campo de [setor da empresa].
+                </p>
+    
+                <div>
+                    <button type="button" class="button">
+                        <a href="#">Saiba mais ></a>
+                    </button>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <!-- Texto de serviços -->
+    <section id="servico">
+        <div class="servico">
+    
+            <h2>Serviços da Empresa</h2>
+            <p>Descrição breve do serviço 1, explicando suas principais vantagens e funcionalidades para o cliente.</p>
+            <div>
+                <button class="button" type="button">
+                    <a href="#">Saiba mais ></a>
+                </button>
+            </div>
+        </div>
+           
+        </div>
+            <div class="image-section">
+                <img src=""Imagem de profissionais trabalhando>
+            </div>
+        </div>
+
+        <section class="services-section">
+            <h2>Nossos Serviços</h2>
+
+            <div class="services-list">
                 <ul>
-                    <li><strong>Serviço 1:</strong> Descrição do serviço 1.</li>
-                    <li><strong>Serviço 2:</strong> Descrição do serviço 2.</li>
-                    <li><strong>Serviço 3:</strong> Descrição do serviço 3.</li>
+                    <li>
+                        <h3>Serviço 1</h3>
+                        <p>Descrição breve do serviço 1, explicando suas principais vantagens e funcionalidades para o cliente.</p>
+                        <a href="#" class="btn">Saiba Mais</a>
+                    </li>
                 </ul>
             </div>
-            <div class="image-section">
-                <img src="assets/fundação.jpg"Imagem de profissionais trabalhando>
+
+            <div class="services-list">
+                <ul>
+                    <li>
+                        <h3>Serviço 2</h3>
+                        <p>Descrição breve do serviço 1, explicando suas principais vantagens e funcionalidades para o cliente.</p>
+                        <a href="#" class="btn">Saiba Mais</a>
+                    </li>
+                </ul>
             </div>
-        </div>
-        <div class="services-section">
-            <h2>Nossos Serviços</h2>
-            <ol class="services-list">
-                <li>
-                    <h3>Serviço 1</h3>
-                    <p>Descrição breve do serviço 1, explicando suas principais vantagens e funcionalidades para o cliente.</p>
-                    <a href="#" class="btn">Saiba Mais</a>
-                </li>
-                <li>
-                    <h3>Serviço 2</h3>
-                    <p>Descrição breve do serviço 2, focando em como ele resolve problemas específicos do cliente.</p>
-                    <a href="#" class="btn">Saiba Mais</a>
-                </li>
-                <li>
-                    <h3>Serviço 3</h3>
-                    <p>Descrição breve do serviço 3, destacando os benefícios e diferenciais competitivos.</p>
-                    <a href="#" class="btn">Saiba Mais</a>
-                </li>
-            </ol>
-        </div>
+            <div class="services-list">
+                <ul>
+                    <li>
+                        <h3>Serviço 3</h3>
+                        <p>Descrição breve do serviço 1, explicando suas principais vantagens e funcionalidades para o cliente.</p>
+                        <a href="#" class="btn">Saiba Mais</a>
+                    </li>
+                </ul>
+            </div> 
+        </section>
+    </section>
+
+    <!-- Texto de clientes -->
+    <section class="clientes" id="clientes">
         <div class="clients-section">
-            <h2>Clientes Atendidos</h2>
+            <h2>Nossos Clientes</h2>
+            <p> pprestamos serviçosprestamos serviçosrestamos serviços </p>
             <div class="clients-list">
                 <div class="client-card">
-                    <img src="assets/cliente (1).jpg" alt="Cliente 1">
-                    <p>Cliente 1</p>
                 </div>
                 <div class="client-card">
-                    <img src="assets/cliente (2).jpg" alt="Cliente 2">
-                    <p>Cliente 2</p>
                 </div>
                 <div class="client-card">
-                    <img src="assets/cliente (3).jpg" alt="Cliente 3">
-                    <p>Cliente 3</p>
                 </div>
                 <!-- Adicione mais cards de clientes conforme necessário -->
             </div>
         </div>
+    </section>
         
     <!-- Rodapé -->
+    <section class="footer" id="contato"> 
         <footer class="footer">
             <div class="footer-info">
                 <p>Endereço: Rua Exemplo, 123, São Paulo, SP</p>
@@ -93,5 +138,6 @@
                 <a href="#"><img src="icon-linkedin.png" alt="LinkedIn"></a>
             </div>
         </footer>
+    </section>
 </body>
 </html>
